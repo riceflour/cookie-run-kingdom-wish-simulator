@@ -23,7 +23,12 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-import * as cookies from '@/assets/scraper_output/cookies.json';
+let cookies = [] as Character[];
+import * as _cookies from '@/assets/scraper_output/cookies.json';
+if ((_cookies as any).default) {
+  cookies = (_cookies as any).default; 
+}
+
 import * as rarities from '@/assets/scraper_output/cookies_rarity.json';
 import { Result } from '@/types/Result'
 import { Character } from '@/bindings/Character'
