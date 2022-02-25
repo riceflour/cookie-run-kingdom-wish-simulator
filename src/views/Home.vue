@@ -43,7 +43,7 @@ import { directive } from 'vue/types/umd';
     }
   },
   mounted() {
-    
+    console.log(cookies)
   },
   methods: {
     clicked() {
