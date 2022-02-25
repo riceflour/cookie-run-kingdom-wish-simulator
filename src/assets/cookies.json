@@ -1,0 +1,506 @@
+[
+  {
+    "name": "GingerBrave",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c1/Brave-cookie.png/revision/latest/scale-to-width-down/350?cb=20211105095720",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Muscle Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/36/Muscle_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105094532",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Strawberry Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a6/Strawberry-cookie.png/revision/latest/scale-to-width-down/350?cb=20211105092710",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Wizard Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/27/Wizard-cookie.png/revision/latest/scale-to-width-down/350?cb=20211105092726",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Beet Cookie",
+    "type": "Ranged",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/da/Beet_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105094439",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Ninja Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/89/Ninja_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105094057",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Angel Cookie",
+    "type": "Healing",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e4/Angel_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105085612",
+    "rarity": "Common",
+    "probability": 0.4197
+  },
+  {
+    "name": "Princess Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Princess_cookie_alternate.png/revision/latest/scale-to-width-down/350?cb=20211030184503",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Avocado Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5e/Avocado_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105085354",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Knight Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/30/Knight_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105091707",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Blackberry Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7a/Blackberry_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105095439",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Devil Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7c/Devil_cookie.png/revision/latest/scale-to-width-down/350?cb=20211030185035",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Adventurer Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/72/Adventurer_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105092050",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Pancake Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0d/Pancake_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105083727",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Cherry Cookie",
+    "type": "Bomber",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0f/Cherry_cookie.png/revision/latest/scale-to-width-down/350?cb=20211101004814",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Alchemist Cookie",
+    "type": "Bomber",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d7/Alchemist_Cookie_alternate.png/revision/latest/scale-to-width-down/350?cb=20211031231118",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Gumball Cookie",
+    "type": "Bomber",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e2/Gumball_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105094543",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Carrot Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9e/Carrot_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105094451",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Clover Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0e/Clover_cookie_alternate.png/revision/latest/scale-to-width-down/350?cb=20211030171344",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Onion Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/84/Onion_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105094504",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Custard Cookie III",
+    "type": "Healing",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6f/Custard-cookie.png/revision/latest/scale-to-width-down/350?cb=20211105092826",
+    "rarity": "Rare",
+    "probability": 0.3766
+  },
+  {
+    "name": "Werewolf Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/38/Werewolf_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105084049",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Dark Choco Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d1/Dark_choco_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105092817",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Purple Yam Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5e/Purple_yam.png/revision/latest/scale-to-width-down/350?cb=20211105090147",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Kumiho Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/dd/Kumiho_Cookie_alternate.png/revision/latest/scale-to-width-down/350?cb=20211030172159",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Red Velvet Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/23/Red_Velvet_Cookie.png/revision/latest/scale-to-width-down/350?cb=20211102082851",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Raspberry Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/65/Rasp_illust.png/revision/latest/scale-to-width-down/350?cb=20211108010639",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Mala Sauce Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/4b/Mala_illust.png/revision/latest/scale-to-width-down/350?cb=20211108003507",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Milk Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/55/Milk_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105084637",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Madeleine Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/71/Madeleine_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105084335",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Strawberry Crepe Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/38/Strawberry_crepe_cookie.png/revision/latest/scale-to-width-down/350?cb=20211105095031",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Moon Rabbit Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c2/Moon_rabbit_illust.png/revision/latest/scale-to-width-down/350?cb=20210916031337",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Snow Sugar Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/68/Snow_sugar_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105091732",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Espresso Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fa/Espresso_pose.png/revision/latest/scale-to-width-down/350?cb=20211105095012",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Licorice Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/35/Licorice-cookie.png/revision/latest/scale-to-width-down/350?cb=20211105094109",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Latte Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/76/Latte_Cookie.png/revision/latest/scale-to-width-down/350?cb=20211101002806",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Mango Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/10/Mango_illust.png/revision/latest/scale-to-width-down/350?cb=20211030184136",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Pumpkin Pie Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a0/Pumpkin_pie_illust.png/revision/latest/scale-to-width-down/350?cb=20211102023040",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Squid Ink Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e1/Squidink.png/revision/latest/scale-to-width-down/350?cb=20211108010654",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Rye Cookie",
+    "type": "Ranged",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a7/Rye_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105091914",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Tiger Lily Cookie",
+    "type": "Ranged",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/af/Tiger_Lily_Cookie_With_Butter_Tiger.png/revision/latest/scale-to-width-down/350?cb=20211031065956",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Pastry Cookie",
+    "type": "Ranged",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7e/Pastry_cookie.png/revision/latest/scale-to-width-down/350?cb=20211102082036",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Twizzly Gummy Cookie",
+    "type": "Ranged",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/31/Twizzly_gummy_illust.png/revision/latest/scale-to-width-down/350?cb=20211102153802",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Chili Pepper Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f5/Chili-pepper-cookie.png/revision/latest/scale-to-width-down/350?cb=20211105092837",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Vampire Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0d/Vampire_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105094519",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Black Raisin Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/24/Dark_raisin_cookie.png/revision/latest/scale-to-width-down/350?cb=20211101003257",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Sorbet Shark Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9d/Sorbetshark.png/revision/latest/scale-to-width-down/350?cb=20211107235039",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Poison Mushroom Cookie",
+    "type": "Bomber",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/15/Poison_mushroom_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105092005",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Mint Choco Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/dd/Mint_choco_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105091650",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Pomegranate Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/81/Pomegranate_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105091947",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Almond Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/69/Almond_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105085032",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Cream Puff Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/ed/Creampuff_cookie.png/revision/latest/scale-to-width-down/350?cb=20211101003428",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Fig Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0c/Fig_cookie.png/revision/latest/scale-to-width-down/350?cb=20211108003537",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Lilac Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/41/Lilacgacha.png/revision/latest/scale-to-width-down/350?cb=20211108003445",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Parfait Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/91/Parf.png/revision/latest/scale-to-width-down/350?cb=20211121032232",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Cotton Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0c/Cotton_Cookie.png/revision/latest/scale-to-width-down/350?cb=20211119061652",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Herb Cookie",
+    "type": "Healing",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/af/Herb_cookie_alternate.png/revision/latest/scale-to-width-down/350?cb=20211030171728",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Sparkling Cookie",
+    "type": "Healing",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fa/Sparkling_cookie.webp/revision/latest/scale-to-width-down/350?cb=20211105090849",
+    "rarity": "Epic",
+    "probability": 0.1929
+  },
+  {
+    "name": "Sonic Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/2f/Sonic_illust.png/revision/latest/scale-to-width-down/350?cb=20210917165551",
+    "rarity": "Special",
+    "probability": 0
+  },
+  {
+    "name": "Tails Cookie",
+    "type": "Ambush",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/1b/Tails_illust.png/revision/latest/scale-to-width-down/350?cb=20210917215215",
+    "rarity": "Special",
+    "probability": 0
+  },
+  {
+    "name": "Pure Vanilla Cookie",
+    "type": "Healing",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/81/Pure-vanilla-cookie.png/revision/latest/scale-to-width-down/350?cb=20211102083437",
+    "rarity": "Ancient",
+    "probability": 0.0072
+  },
+  {
+    "name": "Hollyberry Cookie",
+    "type": "Defense",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8c/Holly_illust.png/revision/latest/scale-to-width-down/350?cb=20211103030509",
+    "rarity": "Ancient",
+    "probability": 0.0072
+  },
+  {
+    "name": "Dark Cacao Cookie",
+    "type": "Charge",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e2/Dark-cacao-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170702",
+    "rarity": "Ancient",
+    "probability": 0
+  },
+  {
+    "name": "Golden Cheese Cookie",
+    "type": "Ranged",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5c/Golden-cheese-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170709",
+    "rarity": "Ancient",
+    "probability": 0
+  },
+  {
+    "name": "White Lily Cookie",
+    "type": "Support",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/12/White-lily-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170730",
+    "rarity": "Ancient",
+    "probability": 0
+  },
+  {
+    "name": "Sea Fairy Cookie",
+    "type": "Bomber",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Sea_fairy_2.png/revision/latest/scale-to-width-down/350?cb=20211030184800",
+    "rarity": "Legendary",
+    "probability": 0.0036
+  },
+  {
+    "name": "Frost Queen Cookie",
+    "type": "Magic",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/15/Frost_queen_cookie.png/revision/latest/scale-to-width-down/350?cb=20211118165407",
+    "rarity": "Legendary",
+    "probability": 0.0036
+  },
+  {
+    "name": "Moonlight Cookie",
+    "type": "",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/84/Moonlight-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170748",
+    "rarity": "Legendary",
+    "probability": 0
+  },
+  {
+    "name": "Fire Spirit Cookie",
+    "type": "",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/52/Fire-spirit-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170803",
+    "rarity": "Legendary",
+    "probability": 0
+  },
+  {
+    "name": "Wind Archer Cookie",
+    "type": "Ranged (In 2019 Promo)",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bc/Wind-archer-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170810",
+    "rarity": "Legendary",
+    "probability": 0
+  },
+  {
+    "name": "Millennial Tree Cookie",
+    "type": "",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c6/Millennial-tree-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170816",
+    "rarity": "Legendary.png",
+    "probability": 0
+  },
+  {
+    "name": "Dark Enchantress Cookie",
+    "type": "",
+    "imagePath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d6/Dark-enchantress-cookie.png/revision/latest/scale-to-width-down/350?cb=20210331170824",
+    "rarity": "Legendary",
+    "probability": 0
+  }
+]

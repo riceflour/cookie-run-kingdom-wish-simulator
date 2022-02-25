@@ -1,0 +1,147 @@
+h2{
+  text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+  color: white;
+}
+
+@font-face {
+  font-family: Cookierun, regular;
+  src: url('../src/assets/webfontkit-20211126-030807/cookierun_regular-webfont.woff')  format('truetype');
+}
+
+#myModal {
+  display: block;
+}
+
+body {
+  font-family: 'Lucida Sans';
+  background-image: url("../src/assets/carousel.png");   /* background isnt working */
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin:20px;
+  border:20px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.p1{
+  color: black;
+  font-family: 'Lucida Sans';
+  font-size: 30px;
+  text-align: center;
+}
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.close {
+  color: grey;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  display:block;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(104, 107, 109);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button1{
+  /* background: white;
+  opacity: 0.5; */
+  background: transparent;
+  color: white;
+  /* -webkit-text-stroke: 1.5px black; */
+  filter: alpha(opacity=90);
+  font-family: 'Lucida Sans';
+  font-size: 18px;
+  border-radius: 20px;
+  width:160px;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  /* font-weight: 500; */
+  /* box-shadow: inset 1px 1px 10px grey; */
+  filter: drop-shadow(4px 4px 4px #828282);
+  text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.percent{
+width: 100%;
+border-radius: 20px;
+}
+
+.banner{
+  height: 400px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  /* filter: drop-shadow(30px 10px 4px #4444dd); */
+}
+
+.container {
+  position: relative;
+}
+
+.draw1{
+  border-radius: 25px;
+  float: right;
+  border: none !important;
+  z-index:-1;
+  width: 180px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.draw10{
+  border-radius: 25px;
+  float: right;
+  border: none !important;
+  z-index: -1;
+  /* margin-right: 50px; */
+  width: 180px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.drawbutton{
+  float: right;
+  background: blue;
+  border: none !important;
+  /* margin-right: 100px; */
+  position:absolute;
+
+}

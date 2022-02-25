@@ -1,0 +1,538 @@
+[
+  {
+    "name": "GingerBrave",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c1/Brave-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e2/Soulstone_gingerbrave.png/revision/latest/scale-to-width-down/70?cb=20210515000527",
+    "rarity": 1,
+    "position": 2
+  },
+  {
+    "name": "Muscle Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/36/Muscle_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/67/Soulstone_muscle.png/revision/latest/scale-to-width-down/70?cb=20210515000545",
+    "rarity": 1,
+    "position": 2
+  },
+  {
+    "name": "Strawberry Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a6/Strawberry-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/22/Soulstone_strawberry.png/revision/latest/scale-to-width-down/70?cb=20210515000556",
+    "rarity": 1,
+    "position": 2
+  },
+  {
+    "name": "Wizard Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/27/Wizard-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/72/Soulstone_wizard.png/revision/latest/scale-to-width-down/70?cb=20210515000602",
+    "rarity": 1,
+    "position": 1
+  },
+  {
+    "name": "Beet Cookie",
+    "type": 6,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/da/Beet_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/76/Soulstone_beet.png/revision/latest/scale-to-width-down/70?cb=20210515000539",
+    "rarity": 1,
+    "position": 0
+  },
+  {
+    "name": "Ninja Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/89/Ninja_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/97/Soulstone_ninja.png/revision/latest/scale-to-width-down/70?cb=20210515000550",
+    "rarity": 1,
+    "position": 1
+  },
+  {
+    "name": "Angel Cookie",
+    "type": 4,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e4/Angel_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/89/Soulstone_angel.png/revision/latest/scale-to-width-down/70?cb=20210515000533",
+    "rarity": 1,
+    "position": 0
+  },
+  {
+    "name": "Princess Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Princess_cookie_alternate.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c2/Soulstone_princess.png/revision/latest/scale-to-width-down/70?cb=20210515000951",
+    "rarity": 2,
+    "position": 2
+  },
+  {
+    "name": "Avocado Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5e/Avocado_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/32/Soulstone_avocado.png/revision/latest/scale-to-width-down/70?cb=20210515000857",
+    "rarity": 2,
+    "position": 2
+  },
+  {
+    "name": "Knight Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/30/Knight_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/44/Soulstone_knight.png/revision/latest/scale-to-width-down/70?cb=20210515000933",
+    "rarity": 2,
+    "position": 2
+  },
+  {
+    "name": "Blackberry Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7a/Blackberry_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c8/Soulstone_blackberry.png/revision/latest/scale-to-width-down/70?cb=20210515000833",
+    "rarity": 2,
+    "position": 0
+  },
+  {
+    "name": "Devil Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7c/Devil_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5f/Soulstone_devil.png/revision/latest/scale-to-width-down/70?cb=20211121020020",
+    "rarity": 2,
+    "position": 1
+  },
+  {
+    "name": "Adventurer Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/72/Adventurer_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7d/Soulstone_adventurer.png/revision/latest/scale-to-width-down/70?cb=20210515000839",
+    "rarity": 2,
+    "position": 1
+  },
+  {
+    "name": "Pancake Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0d/Pancake_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/07/Soulstone_pancake.png/revision/latest/scale-to-width-down/70?cb=20210515000945",
+    "rarity": 2,
+    "position": 0
+  },
+  {
+    "name": "Cherry Cookie",
+    "type": 1,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0f/Cherry_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5e/Soulstone_cherry.png/revision/latest/scale-to-width-down/70?cb=20210515000909",
+    "rarity": 2,
+    "position": 0
+  },
+  {
+    "name": "Alchemist Cookie",
+    "type": 1,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d7/Alchemist_Cookie_alternate.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f5/Soulstone_alchemist.png/revision/latest/scale-to-width-down/70?cb=20210515000844",
+    "rarity": 2,
+    "position": 1
+  },
+  {
+    "name": "Gumball Cookie",
+    "type": 1,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e2/Gumball_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/3b/Soulstone_gumball.png/revision/latest/scale-to-width-down/70?cb=20210515000927",
+    "rarity": 2,
+    "position": 0
+  },
+  {
+    "name": "Carrot Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9e/Carrot_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/30/Soulstone_carrot.png/revision/latest/scale-to-width-down/60?cb=20210515000903",
+    "rarity": 2,
+    "position": 1
+  },
+  {
+    "name": "Clover Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0e/Clover_cookie_alternate.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/64/Soulstone_clover.png/revision/latest/scale-to-width-down/60?cb=20210515000915",
+    "rarity": 2,
+    "position": 0
+  },
+  {
+    "name": "Onion Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/84/Onion_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/70/Soulstone_onion.png/revision/latest/scale-to-width-down/60?cb=20210515000938",
+    "rarity": 2,
+    "position": 1
+  },
+  {
+    "name": "Custard Cookie III",
+    "type": 4,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6f/Custard-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a6/Soulstone_custard.png/revision/latest/scale-to-width-down/70?cb=20210515000921",
+    "rarity": 2,
+    "position": 0
+  },
+  {
+    "name": "Werewolf Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/38/Werewolf_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/94/Soulstone_werewolf.png/revision/latest/scale-to-width-down/60?cb=20210515135625",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Dark Choco Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d1/Dark_choco_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6f/Soulstone_darkchoco.png/revision/latest/scale-to-width-down/70?cb=20210515001328",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Purple Yam Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/5e/Purple_yam.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/47/Soulstone_purpleyam.png/revision/latest/scale-to-width-down/70?cb=20210515001446",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Kumiho Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/dd/Kumiho_Cookie_alternate.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c7/Soulstone_kumiho.png/revision/latest/scale-to-width-down/80?cb=20210515001351",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Red Velvet Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/23/Red_Velvet_Cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f4/Soulstone_redvelvet.png/revision/latest/scale-to-width-down/80?cb=20211121014338",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Raspberry Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/65/Rasp_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6d/Soulstone_raspberry.png/revision/latest/scale-to-width-down/80?cb=20211121013559",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Mala Sauce Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/4b/Mala_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6d/Soulstone_malasauce.png/revision/latest/scale-to-width-down/70?cb=20211121020205",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Tea Knight Cookie",
+    "type": 2,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/08/TeaKnightGachaIllust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b9/Soulstone_teaknight.png/revision/latest/scale-to-width-down/70?cb=20220119143135",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Milk Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/55/Milk_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e8/Soulstone_milk.png/revision/latest/scale-to-width-down/70?cb=20210515001415",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Madeleine Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/71/Madeleine_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6f/Soulstone_madeleine.png/revision/latest/scale-to-width-down/80?cb=20210515001409",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Strawberry Crepe Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/38/Strawberry_crepe_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e9/Soulstone_strawberrycrepe.png/revision/latest/scale-to-width-down/60?cb=20211121015648",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Moon Rabbit Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c2/Moon_rabbit_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/74/Soulstone_moon_rabbit.png/revision/latest/scale-to-width-down/70?cb=20211121013327",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Cocoa Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/22/Cocoa_Cookie_Gacha_Art.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/88/Soulstone_cocoa.png/revision/latest/scale-to-width-down/60?cb=20211209133652",
+    "rarity": 3,
+    "position": 2
+  },
+  {
+    "name": "Snow Sugar Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/68/Snow_sugar_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a2/Soulstone_snowsugar.png/revision/latest/scale-to-width-down/60?cb=20210515001457",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Espresso Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fa/Espresso_pose.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/b6/Soulstone_espresso.png/revision/latest/scale-to-width-down/60?cb=20210515001340",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Licorice Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/35/Licorice-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/59/Soulstone_licorice.png/revision/latest/scale-to-width-down/61?cb=20210515001402",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Latte Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/76/Latte_Cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8a/Soulstone_latte.png/revision/latest/scale-to-width-down/80?cb=20210515001356",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Mango Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/10/Mango_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/02/Soulstone_mango.png/revision/latest/scale-to-width-down/80?cb=20211121015100",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Pumpkin Pie Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a0/Pumpkin_pie_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bc/Soulstone_pumpkinpie.png/revision/latest/scale-to-width-down/73?cb=20211121013000",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Squid Ink Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e1/Squidink.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/34/Soulstone_squidink.png/revision/latest/scale-to-width-down/70?cb=20211121015254",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Rye Cookie",
+    "type": 6,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a7/Rye_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/6b/Soulstone_rye.png/revision/latest/scale-to-width-down/60?cb=20210515001452",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Tiger Lily Cookie",
+    "type": 6,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/af/Tiger_Lily_Cookie_With_Butter_Tiger.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/bf/Soulstone_tigerlily.png/revision/latest/scale-to-width-down/60?cb=20210515001510",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Pastry Cookie",
+    "type": 6,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7e/Pastry_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e4/Soulstone_pastry.png/revision/latest/scale-to-width-down/80?cb=20211121014729",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Twizzly Gummy Cookie",
+    "type": 6,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/3/31/Twizzly_gummy_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/af/Soulstone_twizzlygummy.png/revision/latest/scale-to-width-down/80?cb=20211121012620",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Chili Pepper Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f5/Chili-pepper-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9e/Soulstone_chilipepper.png/revision/latest/scale-to-width-down/60?cb=20210515001315",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Vampire Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0d/Vampire_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/97/Soulstone_vampire.png/revision/latest/scale-to-width-down/60?cb=20210515001517",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Black Raisin Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/f7/Black_raisin_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d3/Soulstone_blackraisin.png/revision/latest/scale-to-width-down/80?cb=20211121012255",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Sorbet Shark Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9d/Sorbetshark.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/47/Soulstone_sorbetshark.png/revision/latest/scale-to-width-down/70?cb=20211121010459",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Poison Mushroom Cookie",
+    "type": 1,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/15/Poison_mushroom_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/70/Soulstone_poisonmushroom.png/revision/latest/scale-to-width-down/60?cb=20210515001425",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Mint Choco Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/dd/Mint_choco_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/49/Soulstone_mintchoco.png/revision/latest/scale-to-width-down/60?cb=20210515001420",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Pomegranate Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/81/Pomegranate_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/9d/Soulstone_pomegranate.png/revision/latest/scale-to-width-down/60?cb=20210515001431",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Almond Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/6/69/Almond_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/be/Soulstone_almond.png/revision/latest/scale-to-width-down/80?cb=20210515001309",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Cream Puff Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/ed/Creampuff_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/06/Soulstone_creampuff.png/revision/latest/scale-to-width-down/80?cb=20210515001322",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Fig Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0c/Fig_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/07/Soulstone_fig.png/revision/latest/scale-to-width-down/80?cb=20211121011650",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Lilac Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/41/Lilacgacha.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/1c/Soulstone_lilac.png/revision/latest/scale-to-width-down/80?cb=20211121011236",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Parfait Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/91/Parf.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c9/Soulstone_parfait.png/revision/latest/scale-to-width-down/80?cb=20211121010213",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Cotton Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0c/Cotton_Cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/47/Soulstone_cotton.png/revision/latest/scale-to-width-down/70?cb=20211120194931",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Eclair Cookie",
+    "type": 7,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/79/EclairGachaIllust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/b/ba/Soulstone_eclair.png/revision/latest/scale-to-width-down/70?cb=20220119143136",
+    "rarity": 3,
+    "position": 1
+  },
+  {
+    "name": "Herb Cookie",
+    "type": 4,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/af/Herb_cookie_alternate.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/51/Soulstone_herb.png/revision/latest/scale-to-width-down/60?cb=20210515001345",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Sparkling Cookie",
+    "type": 4,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/f/fa/Sparkling_cookie.webp",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/d/d2/Soulstone_sparkling.png/revision/latest/scale-to-width-down/60?cb=20210515001504",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Sonic Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/2/2f/Sonic_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/5/50/Soulstone_sonic.png/revision/latest/scale-to-width-down/70?cb=20211121030722",
+    "rarity": 0,
+    "position": 1
+  },
+  {
+    "name": "Tails Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/1b/Tails_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/a/a6/Soulstone_tails.png/revision/latest/scale-to-width-down/70?cb=20211121030435",
+    "rarity": 0,
+    "position": 1
+  },
+  {
+    "name": "Pure Vanilla Cookie",
+    "type": 4,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/81/Pure-vanilla-cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/08/Soulstone_purevanilla.png/revision/latest/scale-to-width-down/70?cb=20211128061030",
+    "rarity": 5,
+    "position": 0
+  },
+  {
+    "name": "Hollyberry Cookie",
+    "type": 3,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8c/Holly_illust.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/7c/Soulstone_hollyberry.png/revision/latest/scale-to-width-down/65?cb=20211128061126",
+    "rarity": 5,
+    "position": 2
+  },
+  {
+    "name": "Sea Fairy Cookie",
+    "type": 1,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Sea_fairy_2.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/8/8b/Soulstone_seafairy.png/revision/latest/scale-to-width-down/75?cb=20220113211150",
+    "rarity": 4,
+    "position": 1
+  },
+  {
+    "name": "Frost Queen Cookie",
+    "type": 5,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/1/15/Frost_queen_cookie.png",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Soulstone_frostqueen.png/revision/latest/scale-to-width-down/70?cb=20211120235110",
+    "rarity": 4,
+    "position": 1
+  }
+]
