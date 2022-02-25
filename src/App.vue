@@ -15,8 +15,6 @@
 <script lang="ts">
 
 import { Component, Vue } from 'vue-property-decorator';
-import * as cookies from '@/assets/scraper_output/cookies.json';
-import * as rarities from '@/assets/scraper_output/cookies_rarity.json';
 import { Character } from '@/bindings/Character'
 import { CharacterType } from './bindings/CharacterType';
 import { RarityChances } from './bindings/RarityChances';

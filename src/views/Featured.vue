@@ -29,8 +29,16 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-import * as cookies from '@/assets/scraper_output/cookies.json';
-import * as rarities from '@/assets/scraper_output/cookies_rarity.json';
+let cookies = [] as Character[];
+import * as _cookies from '@/assets/scraper_output/cookies.json';
+if ((_cookies as any).default) {
+  cookies = (_cookies as any).default; 
+}
+let rarities = [] as RarityChances[];
+import * as _rarities from '@/assets/scraper_output/cookies_rarity.json';
+if ((_rarities as any).default) {
+  rarities = (_rarities as any).default; 
+}
 import { Result } from '@/types/Result'
 import { Character } from '@/bindings/Character'
 import { CharacterType } from '@/bindings/CharacterType';
