@@ -1,12 +1,12 @@
 <template>
     <div>
         <video autoplay muted v-if="showVideo" @ended="showVideo = false">
-            <source src="@/assets/type1(epic).mp4" @ended="showVideo = false" v-if="highestRarity === Rarity.Epic && randomBool">
-            <source src="@/assets/type2(epic).mp4" @ended="showVideo = false" v-else-if="highestRarity === Rarity.Epic">
-            <source src="@/assets/type2(rare).mp4" @ended="showVideo = false" v-else-if="highestRarity === Rarity.Rare && randomBool2">
-            <source src="@/assets/type3(rare).mp4" @ended="showVideo = false" v-else-if="highestRarity === Rarity.Rare">
-            <source src="@/assets/type3(rare).mp4" @ended="showVideo = false" v-else-if="highestRarity === Rarity.Soulstone">
-            <source src="@/assets/type3(rare).mp4" @ended="showVideo = false" v-else-if="highestRarity === Rarity.Common">      
+            <source src="@/assets/type1(epic).mp4" @ended="showVideo = false" v-if="highestRarityCookie === Rarity.Epic && randomBool">
+            <source src="@/assets/type2(epic).mp4" @ended="showVideo = false" v-else-if="highestRarityCookie === Rarity.Epic">
+            <source src="@/assets/type2(rare).mp4" @ended="showVideo = false" v-else-if="highestRarityCookie === Rarity.Rare && randomBool2">
+            <source src="@/assets/type3(rare).mp4" @ended="showVideo = false" v-else-if="highestRarityCookie === Rarity.Rare">
+            <source src="@/assets/type3(rare).mp4" @ended="showVideo = false" v-else-if="highestRaritySoulstone">
+            <source src="@/assets/type3(rare).mp4" @ended="showVideo = false" v-else-if="highestRarityCookie === Rarity.Common">      
         </video>
         <button @click="showVideo = false" v-if="showVideo" class="skip">Skip</button>
         <div v-if="!showVideo" class="results">
@@ -23,7 +23,8 @@ export default Vue.extend({
     data() {
         return {
             Rarity: Rarity,
-            highestRarity: -1,
+            highestRarityCookie: -1,
+            highestRaritySoulstone: -1,
             randomBool: Math.random() < 0.5,
             randomBool2: Math.random() < 0.5,
             showVideo: true,
@@ -32,8 +33,13 @@ export default Vue.extend({
     },
     mounted() {
         for (const cookie of this.result.cookies) {
-            if (cookie.rarity && cookie.rarity > this.highestRarity) {
-                this.highestRarity = cookie.rarity
+            if (cookie.rarity && cookie.rarity > this.highestRarityCookie) {
+                this.highestRarityCookie = cookie.rarity
+            }
+        }
+        for (const soulstone of this.result.soulstones) {
+            if (soulstone.rarity && soulstone.rarity > this.highestRaritySoulstone) {
+                this.highestRaritySoulstone = soulstone.rarity
             }
         }
         console.log(JSON.parse(this.$route.query.result as string))

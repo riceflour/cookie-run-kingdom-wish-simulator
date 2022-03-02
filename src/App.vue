@@ -6,7 +6,6 @@
       <router-link :to="route.path" class="bar-item-button"> {{route.name}}</router-link>
   </li>
 </div>
-  <!-- <button id="idvar" @click="clicked" >Draw 10</button>  -->
   <router-view/>
 </div>
 </body>
@@ -48,7 +47,6 @@ import { directive } from 'vue/types/umd';
     }
   },
   mounted() {  
-    // [ ...Array(10) ].forEach((e, i) => console.log(Math.round((Math.random() * 10000))/100));
     
   },
   methods: {
@@ -106,7 +104,6 @@ h2{
   float: left;
   display: flex;
   justify-content: center;
-  // align-items: center;
   color: #000000;
   text-align: center;
   padding: 14px 16px;
