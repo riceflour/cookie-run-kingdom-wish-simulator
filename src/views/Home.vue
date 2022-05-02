@@ -61,12 +61,12 @@ import { directive } from 'vue/types/umd';
       alert("hi!!!")
     },
     random() {
-      return Math.round(Math.random()* 100000)/1000
+      return Math.round(Math.random()* 100000)/1000 // the random number accounts for the roll
     },
     roll(amountOfRolls: number = 1) {
       const tmpReturn = new Result();
       const rolls: number[] = [];
-      for(let i = 0; i < amountOfRolls; i++){
+      for(let i = 0; i < amountOfRolls; i++){     // if roll 10 then do this 10 times
         const something = (this as any).random()
         rolls.push(something);
       };
@@ -84,19 +84,13 @@ import { directive } from 'vue/types/umd';
         let sum = 0;
         (cookies as Character[]).every(cookie => {
           var rarity = (rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!
-
-          // // manipulate cookie chances here:
-          // if(cookie.name === "Tea Knight Cookie") {
-          //   rarity.cookie = 100
-          //   rarity.soulstone = 100
-          // }
-          // //end
-
+          // adding sum of probabilities to see where the random number lies 
           sum += rarity.cookie
           if (roll <= sum) {
             tmpReturn.cookies.push(cookie)
             return false;
-          }
+          }           
+          // end
 
           sum += rarity.soulstone
           if (roll <= sum) {

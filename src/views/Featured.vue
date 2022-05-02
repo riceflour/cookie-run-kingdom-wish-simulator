@@ -6,7 +6,7 @@
 <div class="container">
   <img src="../assets/strawberrycrepe.jpg" alt="standard banner" class="banner" id="borderbanner">
   <button @click="popup = true" class="button1" id="myBtn">Probabilites</button>
-  <!-- <button @click="popup2 = true" class="button2" id="info">Information</button> -->
+  <button @click="popup2 = true" class="button2" id="info">Information</button>
 </div>
   <img src="../assets/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">
   <img src="../assets/draw1.jpg" alt="draw1" class="draw1" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(1))} })">
@@ -16,12 +16,15 @@
     <p class='p1' style="font-family: CRK">Cookies Probabilities</p>
     <img class="percent" src="../assets/proabilities.jpg" alt="probabilities">
   </div>
-   <div class="info_card">
-    <span @click="popup2 = false" class="closebtn">&times;</span>
-    <p class='p1' style="font-family: CRK">info</p>
-    <img class="percent" style="height: 50%" src="../assets/latte-cookie.gif" alt="probabilities">
-  </div>
+  
 </div>
+<div v-if="popup2" id="myModal" class="modal">
+  <div class="modal-content">
+        <span @click="popup2 = false" class="closebtn">&times;</span>
+        <p class='p1' style="font-family: CRK">info</p>
+        <img class="percent" style="height: 50%" src="../assets/latte-cookie.gif" alt="probabilities">
+      </div>
+    </div>
 </div>
 
 </template>
@@ -86,12 +89,12 @@ import { directive } from 'vue/types/umd';
         (cookies as Character[]).every(cookie => {
           var rarity = (rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!
 
-          // // manipulate cookie chances here:
-          // if(cookie.name === "Tea Knight Cookie") {
-          //   rarity.cookie = 100
-          //   rarity.soulstone = 100
-          // }
-          // //end
+          // manipulate cookie chances here:
+          if(cookie.name === "Strawberry Crepe Cookie") {
+            rarity.cookie = 1.440
+            rarity.soulstone = 8.200
+          }
+          //end
 
           sum += rarity.cookie
           if (roll <= sum) {
@@ -142,14 +145,13 @@ h2{
 }
 
 body {
-  background-image: url(../assets/carousel.png);
-  height: 550px;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin:20px;
-  border:20px;
+  margin:5%;
+  border:5%;
 }
 
 .modal {
@@ -163,7 +165,7 @@ body {
   height: 100%; 
   overflow: auto; 
 }
-
+/* displays the probabilities of each rarity */
 .info_card {
   display: none; 
   position: fixed; 
@@ -175,7 +177,7 @@ body {
   height: 100%; 
   overflow: auto; 
 }
-
+/* end */
 .p1{
   color: black;
   font-family: 'Lucida Sans';
