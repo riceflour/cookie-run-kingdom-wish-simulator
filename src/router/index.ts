@@ -21,6 +21,11 @@ const routes: Array<RouteConfig> = [
     path: '/featured',
     name: 'Featured',
     component: () => import(/* webpackChunkName: "featured" */ '../views/Featured.vue')
+  },
+  {
+    path: '/About',
+    name: 'Cookie Run Kingdom Wish Simulator',
+    component: () => import(/* webpackChunkName: "About" */ '../views/About.vue')
   }
 ]
 

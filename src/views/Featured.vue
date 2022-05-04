@@ -1,32 +1,37 @@
 <template>
 
 <div class="app">
-  <br>
+
   <!-- <h2 style="font-family: CRK">CookieRun Kingdom Wish Simulator</h2> -->
 <div class="container">
-  <img src="../assets/strawberrycrepe.jpg" alt="standard banner" class="banner" id="borderbanner">
+  <img src="../assets/images/Cherryblossomcookie.jpg" alt="featured banner" class="banner" >
   <button @click="popup = true" class="button1" id="myBtn">Probabilites</button>
   <button @click="popup2 = true" class="button2" id="info">Information</button>
 </div>
-  <img src="../assets/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">
-  <img src="../assets/draw1.jpg" alt="draw1" class="draw1" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(1))} })">
+  <img src="../assets/images/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">
+  <img src="../assets/images/draw1.jpg" alt="draw1" class="draw1" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(1))} })">
 <div v-if="popup" id="myModal" class="modal">
   <div class="modal-content">
     <span @click="popup = false" class="close">&times;</span>
     <p class='p1' style="font-family: CRK">Cookies Probabilities</p>
-    <img class="percent" src="../assets/proabilities.jpg" alt="probabilities">
+    <img class="percent" src="../assets/images/proabilities.jpg" alt="probabilities">
   </div>
   
 </div>
 <div v-if="popup2" id="myModal" class="modal">
-  <div class="modal-content">
+  <div class="modal-content" style="font-family: CRK">
         <span @click="popup2 = false" class="closebtn">&times;</span>
-        <p class='p1' style="font-family: CRK">info</p>
-        <img class="percent" style="height: 50%" src="../assets/latte-cookie.gif" alt="probabilities">
+        <!-- Disclaimers -->
+        <p class='p1'>Info</p>
+        <p>I am not affiliated with Devsisters,
+           all assets in this application were taken from third party websites and
+            some screenshotted from the Cookie Run itself(and other games like Genshin Impact).</p>
+        <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a> 
+        and I shall do so.</p>
+        <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>
       </div>
     </div>
 </div>
-
 </template>
 
 <script lang="ts">
@@ -57,7 +62,7 @@ import { directive } from 'vue/types/umd';
     return {
       import :{CharacterData} , from: '../../character.ts',
       popup: false,
-      popup2: true
+      popup2: true    // always popup when you first open the page
     }
   },
   mounted() {
@@ -65,7 +70,8 @@ import { directive } from 'vue/types/umd';
   },
   methods: {
     random() {
-      return Math.round(Math.random()* 100000)/1000
+      return Math.round(Math.random()* 100000)/1000 
+      //the rolling process again, repeated since banner has different chances compared to the original one
     },
     roll(amountOfRolls: number = 1) {
       const tmpReturn = new Result();
@@ -89,8 +95,8 @@ import { directive } from 'vue/types/umd';
         (cookies as Character[]).every(cookie => {
           var rarity = (rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!
 
-          // manipulate cookie chances here:
-          if(cookie.name === "Strawberry Crepe Cookie") {
+          // manipulating cookie chances here:
+          if(cookie.name === "Gingerbrave") {
             rarity.cookie = 1.440
             rarity.soulstone = 8.200
           }
@@ -262,12 +268,13 @@ border-radius: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
   cursor: pointer;
 }
 #borderbanner { 
   border: 10px solid transparent;
   padding: 5px;
-  border-image: url(../assets/border3.png) 30 round;
+  border-image: url(../assets/images/border3.png) 30 round;
 }
 
 .button2{

@@ -18,7 +18,7 @@ h2{
 
 body {
   font-family: 'Lucida Sans';
-  background-image: url("../src/assets/carousel.png");   /* background isnt working */
+  background-image: url("../src/assets/images/carousel.png");   
   height: 550px;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,11 +74,8 @@ body {
 }
 
 .button1{
-  /* background: white;
-  opacity: 0.5; */
   background: transparent;
   color: white;
-  /* -webkit-text-stroke: 1.5px black; */
   filter: alpha(opacity=90);
   font-family: 'Lucida Sans';
   font-size: 18px;

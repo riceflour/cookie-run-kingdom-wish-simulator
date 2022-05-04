@@ -32,7 +32,7 @@ import { directive } from 'vue/types/umd';
       popup: true,
       routes: [
         {
-          path: '',
+          path: '/About',
           name: 'Cookie Run Kingdom Wish Simulator',
         },
         {
@@ -40,7 +40,7 @@ import { directive } from 'vue/types/umd';
           name: 'Home',
         },
         {
-          path: '/featured',
+          path: '/Featured',
           name: 'Featured',
         }
       ]
@@ -67,7 +67,7 @@ export default class Home extends Vue {}
 <style lang="scss" scoped>
 
 body {
-  background-image: url(./assets/genshinbg.jpg);
+  background-image: url(./assets/images/animesky.jpg);
   height: 640px;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,6 +75,7 @@ body {
   position: relative;
   padding: 0;
   margin: 0;
+  z-index: 0;
 }
 
 h2{
