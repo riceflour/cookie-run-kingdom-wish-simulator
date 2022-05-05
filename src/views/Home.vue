@@ -2,9 +2,8 @@
 <div class="app">
   <body>
 <h3>Welcome to the Cookie Run Wish Simulator!</h3>
-  <!-- <h2 style="font-family: CRK">CookieRun Kingdom Wish Simulator</h2> -->
     <div class="container">
-      <img src="../assets/images/attackbg.jpg" alt="standard banner" class="banner" >
+      <img src="../assets/images/Lost_kingdom-update.jpg" alt="standard banner" class="banner" >
       <button @click="popup = true" class="button1" >Probabilites</button>
     </div>
       <img src="../assets/images/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">

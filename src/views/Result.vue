@@ -1,8 +1,5 @@
 <template>
     <div>
-         <div v-if="!showVideo">
-                <router-link to="/" tag="button">Back</router-link>
-          </div>
         <video autoplay v-if="showVideo" @ended="showVideo = false">
             <source src="@/assets/type1(epic).mp4" @ended="showVideo = false" v-if="highestRarityCookie === Rarity.Epic && randomBool">
             <source src="@/assets/type2(epic).mp4" @ended="showVideo = false" v-else-if="highestRarityCookie === Rarity.Epic">
@@ -16,9 +13,13 @@
             <!-- shows name of the cookie or soulstone -->
             <div v-for="(cookie, i) in result.cookies" :key="i">{{cookie.name}}</div>
             <div v-for="(soulstone, i) in result.soulstones" :key="i">{{soulstone.name.replace("Cookie", "Soulstone")}}</div>
-            <p style='color:pink;' > to go back to home.. press home!</p>
+        <br>
+        <div v-if="!showVideo">
+                <router-link to="/" tag="button" class="homebtn">Back</router-link>
+        </div>
         </div>
     </div>
+    
 </template>
 <script lang="ts">
 import { Rarity } from '@/bindings/Rarity'
@@ -27,6 +28,7 @@ import Vue from 'vue'
 export default Vue.extend({
     data() {
         return {
+            saveResults: false,
             Rarity: Rarity,
             highestRarityCookie: -1,
             highestRaritySoulstone: -1,
@@ -36,13 +38,21 @@ export default Vue.extend({
             result: JSON.parse(this.$route.query.result as string) as Result || new Result()
         }
     },
+    beforeRouteEnter(to, from, next) {
+        next(vm => {
+            if (from.name == "Home") (vm as any).saveResults = true;
+            next();
+        })
+    },
     mounted() {
         for (const cookie of this.result.cookies) {
+            if (this.saveResults) this.$store.commit('addSoulstones', {name: cookie.name, soulstones: 20});
             if (cookie.rarity && cookie.rarity > this.highestRarityCookie) {
                 this.highestRarityCookie = cookie.rarity
             }
         }
         for (const soulstone of this.result.soulstones) {
+            if (this.saveResults) this.$store.commit('addSoulstones', {name: soulstone.name, soulstones: 1});
             if (soulstone.rarity && soulstone.rarity > this.highestRaritySoulstone) {
                 this.highestRaritySoulstone = soulstone.rarity
             }
@@ -56,6 +66,20 @@ export default Vue.extend({
 
 .skip{
 float: right;
+}
+
+.homebtn{
+    text-align:center;
+    background-color: #DCDCDC;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.homebtn:hover {
+  background-color: #A9A9A9;
 }
 
 .p1{

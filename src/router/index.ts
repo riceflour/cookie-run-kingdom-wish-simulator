@@ -26,6 +26,11 @@ const routes: Array<RouteConfig> = [
     path: '/About',
     name: 'Cookie Run Kingdom Wish Simulator',
     component: () => import(/* webpackChunkName: "About" */ '../views/About.vue')
+  },
+  {
+    path: '/History',
+    name: 'Cookie Run Kingdom Wish Simulator',
+    component: () => import(/* webpackChunkName: "About" */ '../views/History.vue')
   }
 ]
 

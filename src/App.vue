@@ -42,6 +42,10 @@ import { directive } from 'vue/types/umd';
         {
           path: '/Featured',
           name: 'Featured',
+        },
+        {
+          path: '/history',
+          name: 'History',
         }
       ]
     }

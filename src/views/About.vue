@@ -41,7 +41,7 @@
   
   <div class="column">
     <div class="card">
-      <img src="@/assets/images/gingerbrave.webp" alt="John" style="width:100%">
+      <img src="@/assets/images/gingerbrave.webp" alt="John" style="width:80%">
       <div class="container">
         <h2>John Doe</h2>
         <p class="title">Designer</p>
