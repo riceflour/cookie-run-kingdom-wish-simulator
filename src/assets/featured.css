@@ -1,17 +1,4 @@
-
-h3{
-    font-family: CRK;
-    text-align: center;
-    text-shadow:
-          -1px -1px 0 #000,
-          1px -1px 0 #000,
-          -1px 1px 0 #000,
-          1px 1px 0 #000;
-    color: white;
-  }
-  
-  
-  @font-face {
+@font-face {
     font-family: 'CRK';
     src: url('/crk_font/cookierun_regular-webfont.woff');
   }
@@ -30,6 +17,20 @@ h3{
     display: block;
   }
   
+  #info {
+    display: block;
+  }
+  
+  body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin:5%;
+    border:5%;
+  }
+  
   .modal {
     display: none; 
     position: fixed; 
@@ -41,7 +42,19 @@ h3{
     height: 100%; 
     overflow: auto; 
   }
-  
+  /* displays the probabilities of each rarity */
+  .info_card {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+  }
+  /* end */
   .p1{
     color: black;
     font-family: 'Lucida Sans';
@@ -50,6 +63,15 @@ h3{
   }
   
   .modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 25px;
+  }
+  
+  .info-content {
     background-color: white;
     margin: auto;
     padding: 20px;
@@ -73,6 +95,21 @@ h3{
     cursor: pointer;
   }
   
+  .closebtn {
+    color: grey;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    display:block;
+  }
+  
+  .closebtn:hover,
+  .closebtn:focus {
+    color: rgb(104, 107, 109);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
   .button1{
     background: transparent;
     color: white;
@@ -82,7 +119,7 @@ h3{
     border-radius: 20px;
     width:120px;
     position: absolute;
-    top: 10%;        /* 20px */
+    top: 10%;
     right: 110px;
     filter: drop-shadow(4px 4px 4px #828282);
     text-shadow:
@@ -92,7 +129,48 @@ h3{
           1px 1px 0 #000;
   }
   
+  .percent{
+  width: 100%;
+  border-radius: 20px;
+  }
+  
   .homebtn{
+      background: transparent;
+      color: white;
+      filter: alpha(opacity=90);
+      font-family: 'Lucida Sans';
+      font-size: 18px;
+      border-radius: 20px;
+      width:120px;
+      position: absolute;
+      top: 20%;
+      right: 110px;
+      filter: drop-shadow(4px 4px 4px #828282);
+      text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    }
+  
+  
+  .banner{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000000;
+  }
+  #borderbanner { 
+    border: 10px solid transparent;
+    padding: 5px;
+    border-image: url(../assets/images/border3.png) 30 round;
+  }
+  
+  .button2{
     background: transparent;
     color: white;
     filter: alpha(opacity=90);
@@ -101,7 +179,7 @@ h3{
     border-radius: 20px;
     width:120px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     right: 110px;
     filter: drop-shadow(4px 4px 4px #828282);
     text-shadow:
@@ -109,25 +187,6 @@ h3{
           1px -1px 0 #000,
           -1px 1px 0 #000,
           1px 1px 0 #000;
-  }
-
-  .percent{
-  width: 100%;
-  border-radius: 20px;
-  }
-  
-  .banner{
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px #000000;
-  }
-  #borderbanner { 
-    border: 10px solid transparent;
-    padding: 5px;
-    border-image: url(../assets/images/border3.png) 30 round;
   }
   
   .container {

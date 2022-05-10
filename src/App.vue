@@ -74,12 +74,11 @@ body {
   background-image: url(./assets/images/animesky.jpg);
   height: 640px;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: auto;
   position: relative;
   padding: 0;
   margin: 0;
-  z-index: 0;
 }
 
 h2{

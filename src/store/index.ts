@@ -11,6 +11,7 @@ export default new Vuex.Store({
   },
   mutations: {
     addSoulstones(state, input: StoredResult) {
+      // if previous soulstone data exist of a specific cookie add the new soulstone no. to the original soulstone no.
       let foundresult = state.soulstones.find((e) => {
         return e.name == input.name
       })
@@ -21,10 +22,11 @@ export default new Vuex.Store({
         state.soulstones.push(input)
       }
     }
+    //end
   },
   actions: {
   },
   modules: {
   },
-  plugins: [new VuexPersistence().plugin]
+  plugins: [new VuexPersistence().plugin] //store plugin to save results
 })
