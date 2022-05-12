@@ -1,7 +1,6 @@
 <template>
 
 <div class="app">
-
   <!-- <h2 style="font-family: CRK">CookieRun Kingdom Wish Simulator</h2> -->
 <div class="container">
   <img src="../assets/images/Cherryblossomcookie.jpg" alt="featured banner" class="banner" >
@@ -17,7 +16,7 @@
     <p class='p1' style="font-family: CRK">Cookies Probabilities</p>
     <img class="percent" src="../assets/images/proabilities.jpg" alt="probabilities">
   </div>
-  
+
 </div>
 <div v-if="popup2" id="myModal" class="modal">
   <div class="modal-content" style="font-family: CRK">

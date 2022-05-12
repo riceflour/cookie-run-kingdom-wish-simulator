@@ -1,23 +1,24 @@
 <template>
 <div class="app">
-  <body>
-<h3>Welcome to the Cookie Run Wish Simulator!</h3>
-    <div class="container">
-      <img src="../assets/images/Lost_kingdom-update.jpg" alt="standard banner" class="banner" >
-      <button @click="popup= true" class="button1" >Probabilites</button>
-      <router-link to="/history" tag="button" class="homebtn">History</router-link>
-    </div>
-      <img src="../assets/images/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">
-      <img src="../assets/images/draw1.jpg" alt="draw1" class="draw1" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(1))} })">
-    <div v-if="popup" id="myModal" class="modal">
-      <div class="modal-content">
-        <span @click="popup = false" class="close">&times;</span>
-        <p class='p1' style="font-family: CRK">Cookies Probabilities</p>
-        <img class="percent" src="../assets/images/proabilities.jpg" alt="probabilities">
+  <!-- <body> -->
+    <h3>Welcome to the Cookie Run Wish Simulator!</h3>
+      <div class="container">
+        <img src="../assets/images/Lost_kingdom-update.jpg" alt="standard banner" class="banner" >
+        <button @click="popup= true" class="button1" >Probabilites</button>
+        <router-link to="/history" tag="button" class="homebtn">History</router-link>
       </div>
-    </div>
-  </body>
-  </div>
+        <img src="../assets/images/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">
+        <img src="../assets/images/draw1.jpg" alt="draw1" class="draw1" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(1))} })">
+      <div v-if="popup" id="myModal" class="modal">
+        <div class="modal-content">
+          <span @click="popup = false" class="close">&times;</span>
+          <p class='p1' style="font-family: CRK">Cookies Probabilities</p>
+          <img class="percent" src="../assets/images/proabilities.jpg" alt="probabilities">
+        </div>
+      </div>
+   <!-- </body>  -->
+</div>
+
 </template>
 
 <script lang="ts">

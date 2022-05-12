@@ -1,14 +1,14 @@
 <template>
-<body>
-<div class="app">
-<div class="topnav">
-  <li class="item" v-for="route in routes" :key="route.path">
-      <router-link :to="route.path" class="bar-item-button"> {{route.name}}</router-link>
-  </li>
+<div class="bg">
+  <div class="app">
+    <div class="topnav">
+      <li class="item" v-for="route in routes" :key="route.path">
+        <router-link :to="route.path" class="bar-item-button"> {{route.name}}</router-link>
+      </li>
+    </div>
+    <router-view/>
+  </div>
 </div>
-  <router-view/>
-</div>
-</body>
 </template>
 
 <script lang="ts">
@@ -70,15 +70,13 @@ export default class Home extends Vue {}
 
 <style lang="scss" scoped>
 
-body {
+.bg {
   background-image: url(./assets/images/animesky.jpg);
-  height: 640px;
+  height: 640px; 
   background-position: center;
   background-repeat: repeat-y;
   background-size: auto;
   position: relative;
-  padding: 0;
-  margin: 0;
 }
 
 h2{
