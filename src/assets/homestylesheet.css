@@ -198,11 +198,11 @@ h3{
     padding: 5px;
     border-image: url(../assets/images/border3.png) 30 round;
   }
-  
   .container {
     position: relative;
+    max-height: auto;
   }
-  
+
   .draw1{
     border-radius: 25px;
     float: right;

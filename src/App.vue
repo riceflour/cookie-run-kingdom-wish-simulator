@@ -79,7 +79,7 @@ export default class Home extends Vue {}
   position: relative;
 }
 
-h2{
+.h2{
   text-shadow:
         -1px -1px 0 #000,
         1px -1px 0 #000,
