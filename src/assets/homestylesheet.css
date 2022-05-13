@@ -201,14 +201,8 @@ h3{
   
   .container {
     position: relative;
-<<<<<<< HEAD
-    max-height: auto;
-  }
-
-=======
   }
   
->>>>>>> parent of 2c724df... try deploy to vercel
   .draw1{
     border-radius: 25px;
     float: right;

@@ -14,8 +14,8 @@
         </div>
         <div v-if="!showVideo" class="results">
             <!-- shows name of the cookie or soulstone -->
-            <div v-for="(cookie, i) in result.cookies" :key="i">{{cookie.name}}</div>
-            <div v-for="(soulstone, i) in result.soulstones" :key="i">{{soulstone.name.replace("Cookie", "Soulstone")}}</div>
+            <div v-for="(cookie, i) in result.cookies" :key="i" :class="Rarity[cookie.rarity]">{{cookie.name}}</div>
+            <div v-for="(soulstone, i) in result.soulstones" :key="i" :class="Rarity[soulstone.rarity]">{{soulstone.name.replace("Cookie", "Soulstone")}}</div>
         <br>
         <div v-if="!showVideo">
                 <router-link to="/" tag="button" class="homebtn">Back</router-link>
@@ -150,5 +150,6 @@ export default Vue.extend({
         1px 1px 0 #000;
   color: white;
 }
+
 
 </style>

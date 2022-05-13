@@ -72,7 +72,8 @@ export default class Home extends Vue {}
 
 .bg {
   background-image: url(./assets/images/animesky.jpg);
-  height: 565px; 
+  height: 100vh;
+  width: 100%; 
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
