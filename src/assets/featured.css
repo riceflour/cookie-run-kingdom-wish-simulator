@@ -86,13 +86,14 @@
     font-size: 30px;
     font-weight: bold;
     display:block;
+    cursor: pointer;
   }
   
   .close:hover,
   .close:focus {
     color: rgb(104, 107, 109);
     text-decoration: none;
-    cursor: pointer;
+    cursor: none;
   }
   
   .closebtn {
@@ -101,13 +102,6 @@
     font-size: 30px;
     font-weight: bold;
     display:block;
-  }
-  
-  .closebtn:hover,
-  .closebtn:focus {
-    color: rgb(104, 107, 109);
-    text-decoration: none;
-    cursor: pointer;
   }
   
   .button1{
@@ -134,7 +128,7 @@
   border-radius: 20px;
   }
   
-  .homebtn{
+  .history{
       background: transparent;
       color: white;
       filter: alpha(opacity=90);

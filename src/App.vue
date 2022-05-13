@@ -1,5 +1,5 @@
 <template>
-<div class="bg">
+<div class="">
   <div class="app">
     <div class="topnav">
       <li class="item" v-for="route in routes" :key="route.path">
@@ -43,10 +43,10 @@ import { directive } from 'vue/types/umd';
           path: '/Featured',
           name: 'Featured',
         },
-        {
-          path: '/history',
-          name: 'History',
-        }
+        // {
+        //   path: '/history',
+        //   name: 'History',
+        // }
       ]
     }
   },
@@ -72,10 +72,10 @@ export default class Home extends Vue {}
 
 .bg {
   background-image: url(./assets/images/animesky.jpg);
-  height: 640px; 
+  height: 565px; 
   background-position: center;
   background-repeat: repeat-y;
-  background-size: auto;
+  background-size: cover;
   position: relative;
 }
 
@@ -108,10 +108,10 @@ h2{
   justify-content: center;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
   font-size: 17px;
-  height: 35px;
+  height: 20px;
 }
 
 .topnav a:hover {

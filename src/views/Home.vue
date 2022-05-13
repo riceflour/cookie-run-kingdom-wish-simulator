@@ -1,11 +1,11 @@
 <template>
-<div class="app">
-  <!-- <body> -->
+<div class="bg">
     <h3>Welcome to the Cookie Run Wish Simulator!</h3>
       <div class="container">
         <img src="../assets/images/Lost_kingdom-update.jpg" alt="standard banner" class="banner" >
         <button @click="popup= true" class="button1" >Probabilites</button>
-        <router-link to="/history" tag="button" class="homebtn">History</router-link>
+        <router-link to="/history" tag="button" class="history">History</router-link>
+        <button @click="popup2 = true" class="button2" id="info">Information</button>
       </div>
         <img src="../assets/images/draw10.jpg" alt="draw10" class="draw10" id="draw10" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(10))} })">
         <img src="../assets/images/draw1.jpg" alt="draw1" class="draw1" @click="$router.push({name: 'Result', query: { result: JSON.stringify(roll(1))} })">
@@ -16,9 +16,20 @@
           <img class="percent" src="../assets/images/proabilities.jpg" alt="probabilities">
         </div>
       </div>
-   <!-- </body>  -->
+      <div v-if="popup2" id="myModal" class="modal">
+    <div class="modal-content" style="font-family: CRK">
+          <span @click="popup2 = false" class="closebtn">&times;</span>
+          <!-- Disclaimers -->
+          <p class='p1'>Info</p>
+          <p>I am not affiliated with Devsisters,
+            all assets in this application were taken from third party websites and
+              some screenshotted from the Cookie Run itself(and other games like Genshin Impact).</p>
+          <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a> 
+          and I shall do so.</p>
+          <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>
+        </div>
+  </div>
 </div>
-
 </template>
 
 <script lang="ts">
@@ -52,6 +63,7 @@ import { directive } from 'vue/types/umd';
     return {
       import :{CharacterData} , from: '../../character.ts',
       popup: false,
+      popup2: false,   // if you want it to always popup when you first open the page then change to true 
     }
   },
   mounted() {

@@ -1,5 +1,5 @@
 <template>
-    <div>      
+    <div class="bg">      
         <div class="container">
         <video autoplay v-if="showVideo" @ended="showVideo = false">
             <source src="@/assets/type1(epic).mp4" @ended="showVideo = false" v-if="highestRarityCookie === Rarity.Epic && randomBool">
