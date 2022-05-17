@@ -2,7 +2,7 @@
 <div class="bg">
     <h3>Welcome to the Cookie Run Wish Simulator!</h3>
       <div class="container">
-        <img src="../assets/images/Cherryblossomcookie.jpg" alt="standard banner" class="banner" >
+        <img src="../assets/images/cherryblossombanner.jpg" alt="standard banner" class="banner" >
         <button @click="popup= true" class="button1" >Probabilites</button>
         <router-link to="/history" tag="button" class="history">History</router-link>
         <button @click="popup2 = true" class="button2" id="info">Information</button>
@@ -14,6 +14,34 @@
           <span @click="popup = false" class="close">&times;</span>
           <p class='p1' style="font-family: CRK">Cookies Probabilities</p>
           <img class="percent" src="../assets/images/proabilities.jpg" alt="probabilities">
+          <br>
+           <!-- Different probabilities since this is a featured banner -->
+          <table id="chances">
+            <tr>
+              <th></th>
+              <th>Common</th>
+              <th>Rare</th>
+              <th>Epic</th>
+              <th>Legendary</th>
+              <th>Ancient</th>
+            </tr>
+            <tr>
+              <td>Soulstone</td>
+              <td>4.576%</td>
+              <td>2.288%</td>
+              <td>8.200% (Featured)<br>0.191% (Other)</td>
+              <td>0.308%</td>
+              <td>0.308%</td>
+            </tr>
+            <tr>
+              <td>Cookie</td>
+              <td>1.369%</td>
+              <td>0.376%</td>
+              <td>1.440% (Featured)<br>0.034% (Other)</td>
+              <td>0.054%</td>
+              <td>0.054%</td>
+            </tr>
+          </table>
         </div>
       </div>
       <div v-if="popup2" id="myModal" class="modal">
@@ -91,11 +119,11 @@ import { directive } from 'vue/types/umd';
         rolls.forEach( roll => {
         let sum = 0;
         (cookies as Character[]).every(cookie => {
-          var rarity = (rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!
+          var rarity = {...(rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!}
 
           // manipulating cookie chances here:
           if(cookie.name === "Strawberry Cookie") {
-            rarity.cookie = 1.440
+            rarity.cookie = 50
             rarity.soulstone = 8.200
           }
           //end

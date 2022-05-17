@@ -1,5 +1,5 @@
 <template>
-    <div class="cookieforest">      
+    <div class="cookieforest">   
         <div class="container">
             <video autoplay v-if="showVideo" @ended="showVideo = false">
                 <source src="@/assets/type4(epic).mp4" @ended="showVideo = false" v-if="highestRarityCookie === Rarity.Epic && randomBool">
@@ -13,6 +13,7 @@
         </div>
         <div v-if="!showVideo" class="results">
             <!-- shows name of the cookie or soulstone -->
+            <br><br>
             <div v-for="(cookie, i) in result.cookies" :key="i" :class="Rarity[cookie.rarity]">{{cookie.name}}</div>
             <div v-for="(soulstone, i) in result.soulstones" :key="i">{{soulstone.name.replace("Cookie", "Soulstone")}}</div>
             <br>
@@ -21,7 +22,6 @@
             </div>
         </div>
 </div>
-    
 </template>
 <script lang="ts">
 import { Rarity } from '@/bindings/Rarity'
