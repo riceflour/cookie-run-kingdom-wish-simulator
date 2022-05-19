@@ -45,12 +45,45 @@
       padding: 12px 16px;
       font-size: 16px;
       cursor: pointer;
+      border: 2px solid black;
   }
   
   .homebtn:hover {
     background-color: #A9A9A9;
   }
+  .green {
+    border-color: #04AA6D;
+    color: green;
+  }
   
+  .green:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .ftbtn{
+    text-align:center;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #e7e7e7;
+    border: 2px solid pink;
+}
+
+.pink {
+  border-color: pink;
+  color: pink;
+}
+
+.pink:hover {
+  background: pink;
+  color: white;
+}
+
+
   .p1{
     color: black;
     font-family: 'Lucida Sans';
@@ -121,17 +154,17 @@
     background-size: 400% 100%;
 }
 
-  @keyframes rainbow_animation {
-      0%,100% {
-          background-position: 0 0;
-      }
-  
-      50% {
-          background-position: 100% 0;
-      }
-  }
-  
-  .cookieforest{
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.cookieforest{
     background-image: url(../assets/images/animalsbg.jpg);
     height: 100vh;
     width: 100%; 
@@ -141,10 +174,9 @@
     position: relative;
 }
 
-.darken{
-    filter: brightness(50%);
-}
-
-.lighten{
-    filter: brightness(100%);
+img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

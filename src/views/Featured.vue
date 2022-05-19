@@ -55,6 +55,7 @@
           <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a> 
           and I shall do so.</p>
           <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>
+          <p>This project is open source available <a href="https://github.com/riceflour/cookie-run-kingdom-wish-simulator/tree/af4b74b5930a964cbb51ef88ec5483d707fb02cd">here!</a></p>
         </div>
   </div>
 </div>
@@ -96,17 +97,17 @@ import { directive } from 'vue/types/umd';
   },
   methods: {
     random() {
-      return Math.round(Math.random()* 100000)/1000 
+      return Math.round(Math.random()* 100000)/1000 //give a random number with 3 decimal places
       //the rolling process again, repeated since banner has different chances compared to the original one
     },
     roll(amountOfRolls: number = 1) {
       const tmpReturn = new Result();
       const rolls: number[] = [];
-      for(let i = 0; i < amountOfRolls; i++){
+      for(let i = 0; i < amountOfRolls; i++){ //for 1 or 10 rolls do this then increment i
         const something = (this as any).random()
         rolls.push(something);
       };
-      rolls.sort((a:number, b: number) => {
+      rolls.sort((a:number, b: number) => { //sort from highest to lowest 
         return b-a
       })
 
@@ -122,8 +123,8 @@ import { directive } from 'vue/types/umd';
           var rarity = {...(rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!}
 
           // manipulating cookie chances here:
-          if(cookie.name === "Strawberry Cookie") {
-            rarity.cookie = 50
+          if(cookie.name === "Cherry Blossom Cookie") {
+            rarity.cookie = 1.440
             rarity.soulstone = 8.200
           }
           //end

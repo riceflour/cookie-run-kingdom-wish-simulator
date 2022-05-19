@@ -21,7 +21,6 @@
         <p class="title">CEO and Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
@@ -34,20 +33,18 @@
         <p class="title">Art Director</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="@/assets/images/gingerbrave.webp" alt="John" style="width:80%">
+      <img src="https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Princess_cookie_alternate.png/revision/latest?cb=20211220201736" alt="John" style="width:80%">
       <div class="container">
         <h2>John Doe</h2>
         <p class="title">Designer</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 [
   {
-    "name": "GingerBrave Cookie",
+    "name": "GingerBrave",
     "type": 2,
     "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/c/c1/Brave-cookie.png",
     "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e2/Soulstone_gingerbrave.png/revision/latest/scale-to-width-down/70?cb=20210515000527",
@@ -372,6 +372,14 @@
     "type": 0,
     "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/0/0d/Vampire_cookie.webp",
     "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/9/97/Soulstone_vampire.png/revision/latest/scale-to-width-down/60?cb=20210515001517",
+    "rarity": 3,
+    "position": 0
+  },
+  {
+    "name": "Cherry Blossom Cookie",
+    "type": 0,
+    "illustrationImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/e/e0/Soulstone_cherryblossom.png/revision/latest/scale-to-width-down/220?cb=20220418133626",
+    "soulstoneImgPath": "https://static.wikia.nocookie.net/cookierunkingdom/images/7/79/Cherry_blossom_gacha_art.png/revision/latest/scale-to-width-down/700?cb=20220420145137",
     "rarity": 3,
     "position": 0
   },

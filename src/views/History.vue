@@ -1,6 +1,5 @@
 <template>
 <body>
-    <div class="">
         <div class="history">
             <!-- display soulstone amount  -->
                     <div v-for="(char, i) in $store.state.soulstones" :key="i">
@@ -21,7 +20,6 @@
             <!-- </table> -->    
         <!-- end -->
         </div>
-    </div>
 </body>
 </template>
 <script lang="ts">
@@ -40,13 +38,6 @@ export default Vue.extend({
     color: black;
     font-family: 'CRK';
     font-size: 20px;
-    // text-shadow:
-          // -2px -1px 0 white,
-          // 2px -1px 0 #fff,
-          // -2px 1px 0 #fff,
-          // 2px 1px 0 #fff;
-    // -webkit-text-stroke-width: 1px;
-    // -webkit-text-stroke-color: #fff;
 }
 
 span {

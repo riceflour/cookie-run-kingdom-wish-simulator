@@ -24,9 +24,10 @@
           <p>I am not affiliated with Devsisters,
             all assets in this application were taken from third party websites and
               some screenshotted from the Cookie Run itself(and other games like Genshin Impact).</p>
-          <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a> 
+          <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a>
           and I shall do so.</p>
           <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>
+          <p>This project is open source available <a href="https://github.com/riceflour/cookie-run-kingdom-wish-simulator/tree/af4b74b5930a964cbb51ef88ec5483d707fb02cd">here!</a></p>
         </div>
   </div>
 </div>
