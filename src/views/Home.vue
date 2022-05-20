@@ -23,7 +23,7 @@
           <p class='p1'>Info</p>
           <p>I am not affiliated with Devsisters,
             all assets in this application were taken from third party websites and
-              some screenshotted from the Cookie Run itself(and other games like Genshin Impact).</p>
+              some screenshotted from the Cookie Run itself.</p>
           <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a>
           and I shall do so.</p>
           <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>

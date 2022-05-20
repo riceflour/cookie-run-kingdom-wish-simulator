@@ -3,53 +3,37 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-
+<body class="guide">
+      <div v-if="popup" id="myModal" class="modal">
+    <div class="modal-content" style="font-family: CRK">
+          <span @click="popup = false" class="closebtn">&times;</span>
+          <!-- Disclaimers -->
+          <p class='p1'>Disclaimer</p>
+          <p>I am not affiliated with Devsisters,
+            all assets in this application were taken from third party websites and
+              some screenshotted from the Cookie Run itself.</p>
+          <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a> 
+          and I shall do so.</p>
+          <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>
+          <p>This project is open source available <a href="https://github.com/riceflour/cookie-run-kingdom-wish-simulator/tree/af4b74b5930a964cbb51ef88ec5483d707fb02cd">here!</a></p>
+        </div>
+  </div>
 <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+
+  <h1>User Guide</h1>
+  <p>This is a roll simulator for the Cookie Run Kingdom gacha banner, featuring Cherry Blossom cookie and a standard banner.</p>
+  <p>Click Home at the top to go to the standard banner, or click Featured to go to the Cherry Blossom cookie banner.</p>
+  <p>In the home page you can..Click Probabilties for chances of getting each cookie rarity. Click history for the past cookies that you have gotten. Click info for more information!</p>
 </div>
-
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="@/assets/images/strawberry.webp" alt="Jane" style="width:80%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO and Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="@/assets/images/pancake2.png" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Princess_cookie_alternate.png/revision/latest?cb=20211220201736" alt="John" style="width:80%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-      </div>
-    </div>
-  </div>
+<div class="guide">
+    <h2>To start rolling just press roll 10 to do 10 rolls or roll 1 like in the game!</h2>
+    <p>The colours will tell you the rarity of each cookie that you got. Only cookie, not soul stone. 
+      As an example here are all the cookie rarities and their respective colours</p>
+    <p class="Legendary">Legendary/Ancient</p> 
+    <p class="Epic">Epic</p>
+    <p class="Rare">Rare</p>
+    <p class="Common">Common</p>
 </div>
-
 </body>
 </html>
 </template>
@@ -57,15 +41,32 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
+import { component } from 'vue/types/umd';
+@Component({
+    data() {
+      return {
+        import :{CharacterData} , from: '../../character.ts',
+        popup: true, // will always popup when page is opened
+      }
+  },
+})
 export default class Home extends Vue {}
 window.addEventListener('load', function () {
   })
 </script>
 <style scoped>
+.guide{
+  text-align:center;
+  font-family: CRK;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+    /* background-image: url(../assets/images/banana.webp); */
+    height: fit-content; 
+    background-position: center;
+    background-repeat: repeat-y repeat-x;
+    background-size: auto;
+    position: relative;
 }
 
 html {
@@ -130,5 +131,90 @@ html {
     width: 100%;
     display: block;
   }
+}
+
+  #myModal {
+    display: block;
+  }
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 25px;
+  }
+  
+  .closebtn {
+    color: grey;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    display:block;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(104, 107, 109);
+    text-decoration: none;
+  }
+  .Common {
+    background: linear-gradient(to right , rgb(90, 90, 90), #5b5b5b );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+.Rare {
+    background: linear-gradient(to right , #6666ff, #0099ff , #00ff88);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+  
+.Epic {
+    background: linear-gradient(to right , #ee00ff, #ee52b2, #6200ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+.Legendary {
+    background: linear-gradient(to right , #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
 }
 </style>

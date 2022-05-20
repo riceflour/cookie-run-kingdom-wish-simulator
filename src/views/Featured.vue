@@ -51,7 +51,7 @@
           <p class='p1'>Info</p>
           <p>I am not affiliated with Devsisters,
             all assets in this application were taken from third party websites and
-              some screenshotted from the Cookie Run itself(and other games like Genshin Impact).</p>
+              some screenshotted from the Cookie Run itself.</p>
           <p>If you are someone from Mihoyo and would like this website taken down please email me <a href="mailto:zimo.luo1@gmail.com">here</a> 
           and I shall do so.</p>
           <p>All product names, logos, and brands are property of their respective owners in the South Korea and/or other countries.</p>
@@ -97,50 +97,48 @@ import { directive } from 'vue/types/umd';
   },
   methods: {
     random() {
-      return Math.round(Math.random()* 100000)/1000 //give a random number with 3 decimal places
-      //the rolling process again, repeated since banner has different chances compared to the original one
-    },
+      return Math.round(Math.random()* 100000)/1000 // using math.random and getting a number from 1-100000,
+    },                                               // rounding it, then divide by 1000 gives us a random number from 1-100 with 3 decimal places 
     roll(amountOfRolls: number = 1) {
       const tmpReturn = new Result();
       const rolls: number[] = [];
-      for(let i = 0; i < amountOfRolls; i++){ //for 1 or 10 rolls do this then increment i
+      //do this for however many rolls 
+      for(let i = 0; i < amountOfRolls; i++){ 
         const something = (this as any).random()
         rolls.push(something);
       };
-      rolls.sort((a:number, b: number) => { //sort from highest to lowest 
+      //sort from highest to lowest 
+      rolls.sort((a:number, b: number) => { 
         return b-a
       })
-
+      // defining an array with the character and its probability 
       const tups: Array<[Character, RarityChances]> = [];
       (cookies as Character[]).forEach((cookie)=> {
         var tup: [Character, RarityChances] = [cookie, (rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!]
         tups.push(tup)
       })
-        
         rolls.forEach( roll => {
         let sum = 0;
+        // get each cookie's rarity 
         (cookies as Character[]).every(cookie => {
           var rarity = {...(rarities as RarityChances[]).find(e => e.rarity == cookie.rarity)!}
-
-          // manipulating cookie chances here:
+        // manipulating cookie chances (boosting a specific character's rates): 
           if(cookie.name === "Cherry Blossom Cookie") {
             rarity.cookie = 1.440
             rarity.soulstone = 8.200
           }
-          //end
-
+        //adds probabilities of cookies until the random number (roll) falls in the range of that probability 
           sum += rarity.cookie
           if (roll <= sum) {
             tmpReturn.cookies.push(cookie)
             return false;
           }
-
+        //same but for soulstone probability 
           sum += rarity.soulstone
           if (roll <= sum) {
             tmpReturn.soulstones.push(cookie)
             return false;
           }
-
           return true;
         })
       })
