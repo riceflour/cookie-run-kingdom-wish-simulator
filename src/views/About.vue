@@ -21,9 +21,11 @@
 <div class="about-section">
 
   <h1>User Guide</h1>
-  <p>This is a roll simulator for the Cookie Run Kingdom gacha banner, featuring Cherry Blossom cookie and a standard banner.</p>
-  <p>Click Home at the top to go to the standard banner, or click Featured to go to the Cherry Blossom cookie banner.</p>
-  <p>In the home page you can..Click Probabilties for chances of getting each cookie rarity. Click history for the past cookies that you have gotten. Click info for more information!</p>
+  <p>This is a roll simulator for the Cookie Run Kingdom gacha banner, featuring Cherry Blossom cookie and a standard banner. Users can click Standard at the top to go to the standard banner, or click Featured to go to the Cherry Blossom cookie banner.</p>
+  <p>In the Standard page you can:</p>
+    <p>Click Probabilties -> for chances of getting each cookie rarity. </p>
+      <p>Click History -> for the past cookies that you have gotten.</p>
+      <p> Click Info -> for more information and disclaimers!</p>
 </div>
 <div class="guide">
     <h2>To start rolling just press roll 10 to do 10 rolls or roll 1 like in the game!</h2>
@@ -50,7 +52,7 @@ import { component } from 'vue/types/umd';
       }
   },
 })
-export default class Home extends Vue {}
+export default class Standard extends Vue {}
 window.addEventListener('load', function () {
   })
 </script>

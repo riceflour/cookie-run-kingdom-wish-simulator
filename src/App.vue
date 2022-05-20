@@ -37,7 +37,7 @@ import { directive } from 'vue/types/umd';
         },
         {
           path: '/',
-          name: 'Home',
+          name: 'Standard',
         },
         {
           path: '/Featured',

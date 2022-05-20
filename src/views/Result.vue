@@ -16,11 +16,12 @@
         <div v-if="!showVideo" class="results">
             <!-- shows name of the cookie or soulstone -->
             <br><br>
+            <!-- gives the rarity class to each cookie  -->
             <div v-for="(cookie, i) in result.cookies" :key="i" :class="Rarity[cookie.rarity]">{{cookie.name}}</div>
             <div v-for="(soulstone, i) in result.soulstones" :key="i">{{soulstone.name.replace("Cookie", "Soulstone")}}</div>
             <br>
             <div v-if="!showVideo">
-                <router-link to="/" tag="button" class="homebtn green">Home</router-link>
+                <router-link to="/" tag="button" class="homebtn green">Standard</router-link>
                 <router-link to="/featured" tag="button" class="ftbtn pink">Featured</router-link>
             </div>
         </div>
@@ -47,7 +48,7 @@ export default Vue.extend({
     },
     beforeRouteEnter(to, from, next) {
         next(vm => {
-            if (from.name == "Home") (vm as any).saveResults = true;
+            if (from.name == "Standard") (vm as any).saveResults = true;
             next();
         })
     },
